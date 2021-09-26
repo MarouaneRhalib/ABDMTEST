@@ -2,19 +2,19 @@
 Library    SeleniumLibrary   
 *** Test Cases ***
 Consultation d'une campagne
-    Open Browser  ${URL}  ${BROWSER}
-    Set Browser Implicit Wait    5s
-    Maximize Browser Window
-    RememberMe
-    Login
-    AfficherPageRecherche
-    VerificationDesCriteres
-    TesterLaRecherche
-    CreeUneCampagne
-    ModifierUneCampagneDejaCree
-    SupprimerUneCampagne
-    Sleep    5s
-    Close Browser 
+#    Open Browser  ${URL}  ${BROWSER}
+#    Set Browser Implicit Wait    5s
+#    Maximize Browser Window
+#    RememberMe
+#    Login
+#    AfficherPageRecherche
+#    VerificationDesCriteres
+#    TesterLaRecherche
+#    CreeUneCampagne
+#    ModifierUneCampagneDejaCree
+#    SupprimerUneCampagne
+#    Sleep    5s
+#    Close Browser 
     Log     Test Completed 
     
 

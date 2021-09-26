@@ -1,114 +1,381 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1 (Python 3.8.10 on win32)" generated="20210926 09:41:24.231" rpa="false" schemaversion="2">
-<suite id="s1" name="ADBM Project" source="C:\Users\mrb\Desktop\ADBM Project">
-<suite id="s1-s1" name="Tests" source="C:\Users\mrb\Desktop\ADBM Project\Tests">
-<suite id="s1-s1-s1" name="Objet Campagne" source="C:\Users\mrb\Desktop\ADBM Project\Tests\Objet Campagne.robot">
-<test id="s1-s1-s1-t1" name="Consultation d'une campagne">
+<robot generator="Robot 4.1 (Python 3.8.10 on win32)" generated="20210926 09:54:26.898" rpa="false" schemaversion="2">
+<suite id="s1" name="FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane">
+<suite id="s1-s1" name="FirstObject" source="C:\Users\mrb\git\ABDMTEST\ADBM Project\tests\FirstObject.robot">
+<test id="s1-s1-t1" name="FirstTest">
+<kw name="Log" library="BuiltIn">
+<arg>First Test</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.014" level="INFO">First Test</msg>
+<status status="PASS" starttime="20210926 09:54:27.014" endtime="20210926 09:54:27.014"/>
+</kw>
+<tag>smoke</tag>
+<status status="PASS" starttime="20210926 09:54:27.013" endtime="20210926 09:54:27.015"/>
+</test>
+<test id="s1-s1-t2" name="SecondTest">
+<kw name="Log" library="BuiltIn">
+<arg>Second Test</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.016" level="INFO">Second Test</msg>
+<status status="PASS" starttime="20210926 09:54:27.016" endtime="20210926 09:54:27.016"/>
+</kw>
+<kw name="Set Tags" library="BuiltIn">
+<arg>Regression1</arg>
+<doc>Adds given ``tags`` for the current test or all tests in a suite.</doc>
+<msg timestamp="20210926 09:54:27.017" level="INFO">Set tag 'Regression1'.</msg>
+<status status="PASS" starttime="20210926 09:54:27.017" endtime="20210926 09:54:27.017"/>
+</kw>
+<kw name="Remove Tags" library="BuiltIn">
+<arg>Regression1</arg>
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<msg timestamp="20210926 09:54:27.018" level="INFO">Removed tag 'Regression1'.</msg>
+<status status="PASS" starttime="20210926 09:54:27.017" endtime="20210926 09:54:27.018"/>
+</kw>
+<status status="PASS" starttime="20210926 09:54:27.015" endtime="20210926 09:54:27.019"/>
+</test>
+<test id="s1-s1-t3" name="ThirdTest">
+<kw name="Log" library="BuiltIn">
+<arg>Third Test</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.020" level="INFO">Third Test</msg>
+<status status="PASS" starttime="20210926 09:54:27.020" endtime="20210926 09:54:27.020"/>
+</kw>
+<status status="PASS" starttime="20210926 09:54:27.019" endtime="20210926 09:54:27.021"/>
+</test>
+<test id="s1-s1-t4" name="FourthTest">
+<kw name="Log" library="BuiltIn">
+<arg>Fourth Test</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.022" level="INFO">Fourth Test</msg>
+<status status="PASS" starttime="20210926 09:54:27.022" endtime="20210926 09:54:27.022"/>
+</kw>
+<status status="PASS" starttime="20210926 09:54:27.021" endtime="20210926 09:54:27.023"/>
+</test>
+<test id="s1-s1-t5" name="Testnumberfive">
+<kw name="Log" library="BuiltIn">
+<arg>Test5</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.024" level="INFO">Test5</msg>
+<status status="PASS" starttime="20210926 09:54:27.024" endtime="20210926 09:54:27.024"/>
+</kw>
+<status status="PASS" starttime="20210926 09:54:27.023" endtime="20210926 09:54:27.025"/>
+</test>
+<test id="s1-s1-t6" name="Testnumbersix">
+<kw name="Log" library="BuiltIn">
+<arg>Test6</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.027" level="INFO">Test6</msg>
+<status status="PASS" starttime="20210926 09:54:27.026" endtime="20210926 09:54:27.027"/>
+</kw>
+<status status="PASS" starttime="20210926 09:54:27.025" endtime="20210926 09:54:27.027"/>
+</test>
+<test id="s1-s1-t7" name="TestnumberSeven">
+<kw name="Log" library="BuiltIn">
+<arg>Test7</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.029" level="INFO">Test7</msg>
+<status status="PASS" starttime="20210926 09:54:27.029" endtime="20210926 09:54:27.029"/>
+</kw>
+<status status="PASS" starttime="20210926 09:54:27.028" endtime="20210926 09:54:27.030"/>
+</test>
+<test id="s1-s1-t8" name="TestNumberNine">
+<kw name="Log" library="BuiltIn">
+<arg>ifff</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.031" level="INFO">ifff</msg>
+<status status="PASS" starttime="20210926 09:54:27.031" endtime="20210926 09:54:27.031"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Test9</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.032" level="INFO">Test9</msg>
+<status status="PASS" starttime="20210926 09:54:27.032" endtime="20210926 09:54:27.032"/>
+</kw>
+<status status="PASS" starttime="20210926 09:54:27.030" endtime="20210926 09:54:27.032"/>
+</test>
+<status status="PASS" starttime="20210926 09:54:26.976" endtime="20210926 09:54:27.033"/>
+</suite>
+<suite id="s1-s2" name="Objet Campagne" source="C:\Users\mrb\git\ABDMTEST\ADBM Project\tests\Objet Campagne.robot">
+<test id="s1-s2-t1" name="Consultation d'une campagne">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${URL}</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20210926 09:41:33.438" level="INFO">Opening browser 'Chrome' to base url 'http://uts0007:33410/adbm_dev/login.jsp'.</msg>
+<msg timestamp="20210926 09:54:27.501" level="INFO">Opening browser 'Chrome' to base url 'http://uts0007:33410/adbm_dev/login.jsp'.</msg>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<msg timestamp="20210926 09:41:33.545" level="INFO">Cannot capture screenshot because no browser is open.</msg>
-<status status="PASS" starttime="20210926 09:41:33.542" endtime="20210926 09:41:33.546"/>
+<msg timestamp="20210926 09:54:27.533" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20210926 09:54:27.532" endtime="20210926 09:54:27.533"/>
 </kw>
-<msg timestamp="20210926 09:41:33.896" level="FAIL">WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+<msg timestamp="20210926 09:54:27.540" level="FAIL">WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
 </msg>
-<status status="FAIL" starttime="20210926 09:41:33.404" endtime="20210926 09:41:33.897"/>
+<status status="FAIL" starttime="20210926 09:54:27.500" endtime="20210926 09:54:27.540"/>
 </kw>
 <kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
 <arg>5s</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="NOT RUN" starttime="20210926 09:41:33.899" endtime="20210926 09:41:33.900"/>
+<status status="NOT RUN" starttime="20210926 09:54:27.541" endtime="20210926 09:54:27.541"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="NOT RUN" starttime="20210926 09:41:33.901" endtime="20210926 09:41:33.901"/>
+<status status="NOT RUN" starttime="20210926 09:54:27.541" endtime="20210926 09:54:27.541"/>
 </kw>
 <kw name="RememberMe">
-<status status="NOT RUN" starttime="20210926 09:41:33.902" endtime="20210926 09:41:33.903"/>
+<status status="NOT RUN" starttime="20210926 09:54:27.542" endtime="20210926 09:54:27.542"/>
 </kw>
 <kw name="Login">
-<status status="NOT RUN" starttime="20210926 09:41:33.904" endtime="20210926 09:41:33.904"/>
+<status status="NOT RUN" starttime="20210926 09:54:27.542" endtime="20210926 09:54:27.542"/>
 </kw>
 <kw name="AfficherPageRecherche">
-<status status="NOT RUN" starttime="20210926 09:41:33.965" endtime="20210926 09:41:33.967"/>
+<status status="NOT RUN" starttime="20210926 09:54:27.542" endtime="20210926 09:54:27.542"/>
 </kw>
 <kw name="VerificationDesCriteres">
-<status status="NOT RUN" starttime="20210926 09:41:33.970" endtime="20210926 09:41:33.982"/>
+<status status="NOT RUN" starttime="20210926 09:54:27.543" endtime="20210926 09:54:27.543"/>
 </kw>
 <kw name="TesterLaRecherche">
-<status status="NOT RUN" starttime="20210926 09:41:33.985" endtime="20210926 09:41:33.987"/>
+<status status="NOT RUN" starttime="20210926 09:54:27.543" endtime="20210926 09:54:27.543"/>
 </kw>
 <kw name="CreeUneCampagne">
-<status status="NOT RUN" starttime="20210926 09:41:33.990" endtime="20210926 09:41:33.993"/>
+<status status="NOT RUN" starttime="20210926 09:54:27.543" endtime="20210926 09:54:27.543"/>
 </kw>
 <kw name="ModifierUneCampagneDejaCree">
-<status status="NOT RUN" starttime="20210926 09:41:33.995" endtime="20210926 09:41:33.997"/>
+<status status="NOT RUN" starttime="20210926 09:54:27.543" endtime="20210926 09:54:27.544"/>
 </kw>
 <kw name="SupprimerUneCampagne">
-<status status="NOT RUN" starttime="20210926 09:41:33.998" endtime="20210926 09:41:34.000"/>
+<status status="NOT RUN" starttime="20210926 09:54:27.544" endtime="20210926 09:54:27.544"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" starttime="20210926 09:41:34.028" endtime="20210926 09:41:34.029"/>
+<status status="NOT RUN" starttime="20210926 09:54:27.544" endtime="20210926 09:54:27.544"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="NOT RUN" starttime="20210926 09:41:34.030" endtime="20210926 09:41:34.030"/>
+<status status="NOT RUN" starttime="20210926 09:54:27.545" endtime="20210926 09:54:27.545"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>Test Completed</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="NOT RUN" starttime="20210926 09:41:34.031" endtime="20210926 09:41:34.033"/>
+<status status="NOT RUN" starttime="20210926 09:54:27.545" endtime="20210926 09:54:27.545"/>
 </kw>
-<status status="FAIL" starttime="20210926 09:41:33.403" endtime="20210926 09:41:34.034">WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+<status status="FAIL" starttime="20210926 09:54:27.498" endtime="20210926 09:54:27.546">WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
 </status>
 </test>
-<status status="FAIL" starttime="20210926 09:41:24.570" endtime="20210926 09:41:34.036"/>
+<status status="FAIL" starttime="20210926 09:54:27.036" endtime="20210926 09:54:27.547"/>
 </suite>
-<status status="FAIL" starttime="20210926 09:41:24.563" endtime="20210926 09:41:34.040"/>
+<suite id="s1-s3" name="Objet PM" source="C:\Users\mrb\git\ABDMTEST\ADBM Project\tests\Objet PM.robot">
+<test id="s1-s3-t1" name="Personne Morale">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210926 09:54:27.558" level="INFO">Opening browser 'Chrome' to base url 'http://uts0007:33410/adbm_dev/login.jsp'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20210926 09:54:27.564" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20210926 09:54:27.564" endtime="20210926 09:54:27.564"/>
+</kw>
+<msg timestamp="20210926 09:54:27.566" level="FAIL">WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+</msg>
+<status status="FAIL" starttime="20210926 09:54:27.558" endtime="20210926 09:54:27.566"/>
+</kw>
+<kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
+<arg>5s</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="NOT RUN" starttime="20210926 09:54:27.566" endtime="20210926 09:54:27.567"/>
+</kw>
+<kw name="RememberMe">
+<status status="NOT RUN" starttime="20210926 09:54:27.567" endtime="20210926 09:54:27.567"/>
+</kw>
+<kw name="Login">
+<status status="NOT RUN" starttime="20210926 09:54:27.567" endtime="20210926 09:54:27.567"/>
+</kw>
+<kw name="CreerPM">
+<status status="NOT RUN" starttime="20210926 09:54:27.567" endtime="20210926 09:54:27.567"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20210926 09:54:27.567" endtime="20210926 09:54:27.568"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20210926 09:54:27.568" endtime="20210926 09:54:27.568"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Test Completed</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20210926 09:54:27.568" endtime="20210926 09:54:27.568"/>
+</kw>
+<status status="FAIL" starttime="20210926 09:54:27.557" endtime="20210926 09:54:27.568">WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+</status>
+</test>
+<status status="FAIL" starttime="20210926 09:54:27.550" endtime="20210926 09:54:27.569"/>
 </suite>
-<status status="FAIL" starttime="20210926 09:41:24.435" endtime="20210926 09:41:34.044"/>
+<suite id="s1-s4" name="SecondObject" source="C:\Users\mrb\git\ABDMTEST\ADBM Project\tests\SecondObject.robot">
+<test id="s1-s4-t1" name="FirstTest">
+<kw name="Log" library="BuiltIn">
+<arg>First Test</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.577" level="INFO">First Test</msg>
+<status status="PASS" starttime="20210926 09:54:27.576" endtime="20210926 09:54:27.577"/>
+</kw>
+<tag>smoke</tag>
+<status status="PASS" starttime="20210926 09:54:27.576" endtime="20210926 09:54:27.577"/>
+</test>
+<test id="s1-s4-t2" name="SecondTest">
+<kw name="Log" library="BuiltIn">
+<arg>Second Test</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.579" level="INFO">Second Test</msg>
+<status status="PASS" starttime="20210926 09:54:27.578" endtime="20210926 09:54:27.579"/>
+</kw>
+<kw name="Set Tags" library="BuiltIn">
+<arg>Regression1</arg>
+<doc>Adds given ``tags`` for the current test or all tests in a suite.</doc>
+<msg timestamp="20210926 09:54:27.579" level="INFO">Set tag 'Regression1'.</msg>
+<status status="PASS" starttime="20210926 09:54:27.579" endtime="20210926 09:54:27.580"/>
+</kw>
+<kw name="Remove Tags" library="BuiltIn">
+<arg>Regression1</arg>
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<msg timestamp="20210926 09:54:27.580" level="INFO">Removed tag 'Regression1'.</msg>
+<status status="PASS" starttime="20210926 09:54:27.580" endtime="20210926 09:54:27.580"/>
+</kw>
+<status status="PASS" starttime="20210926 09:54:27.578" endtime="20210926 09:54:27.581"/>
+</test>
+<test id="s1-s4-t3" name="ThirdTest">
+<kw name="Log" library="BuiltIn">
+<arg>Third Test</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.582" level="INFO">Third Test</msg>
+<status status="PASS" starttime="20210926 09:54:27.582" endtime="20210926 09:54:27.582"/>
+</kw>
+<status status="PASS" starttime="20210926 09:54:27.581" endtime="20210926 09:54:27.582"/>
+</test>
+<test id="s1-s4-t4" name="FourthTest">
+<kw name="Log" library="BuiltIn">
+<arg>Fourth Test</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.584" level="INFO">Fourth Test</msg>
+<status status="PASS" starttime="20210926 09:54:27.583" endtime="20210926 09:54:27.584"/>
+</kw>
+<status status="PASS" starttime="20210926 09:54:27.583" endtime="20210926 09:54:27.584"/>
+</test>
+<test id="s1-s4-t5" name="Testnumberfive">
+<kw name="Log" library="BuiltIn">
+<arg>Test5</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.585" level="INFO">Test5</msg>
+<status status="PASS" starttime="20210926 09:54:27.585" endtime="20210926 09:54:27.586"/>
+</kw>
+<status status="PASS" starttime="20210926 09:54:27.585" endtime="20210926 09:54:27.586"/>
+</test>
+<test id="s1-s4-t6" name="Testnumbersix">
+<kw name="Log" library="BuiltIn">
+<arg>Test6</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.587" level="INFO">Test6</msg>
+<status status="PASS" starttime="20210926 09:54:27.587" endtime="20210926 09:54:27.587"/>
+</kw>
+<status status="PASS" starttime="20210926 09:54:27.586" endtime="20210926 09:54:27.588"/>
+</test>
+<test id="s1-s4-t7" name="TestnumberSeven">
+<kw name="Log" library="BuiltIn">
+<arg>Test7</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.589" level="INFO">Test7</msg>
+<status status="PASS" starttime="20210926 09:54:27.589" endtime="20210926 09:54:27.589"/>
+</kw>
+<status status="PASS" starttime="20210926 09:54:27.588" endtime="20210926 09:54:27.589"/>
+</test>
+<test id="s1-s4-t8" name="TestNumberNine">
+<kw name="Log" library="BuiltIn">
+<arg>ifff</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.591" level="INFO">ifff</msg>
+<status status="PASS" starttime="20210926 09:54:27.590" endtime="20210926 09:54:27.591"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Test9</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.591" level="INFO">Test9</msg>
+<status status="PASS" starttime="20210926 09:54:27.591" endtime="20210926 09:54:27.591"/>
+</kw>
+<status status="PASS" starttime="20210926 09:54:27.590" endtime="20210926 09:54:27.592"/>
+</test>
+<status status="PASS" starttime="20210926 09:54:27.571" endtime="20210926 09:54:27.592"/>
+</suite>
+<suite id="s1-s5" name="TestByMarouane" source="C:\Users\mrb\git\ABDMTEST\ADBM Project\tests\TestByMarouane.robot">
+<test id="s1-s5-t1" name="FirstTest">
+<kw name="Log" library="BuiltIn">
+<arg>First Test</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.601" level="INFO">First Test</msg>
+<status status="PASS" starttime="20210926 09:54:27.601" endtime="20210926 09:54:27.601"/>
+</kw>
+<tag>smoke</tag>
+<status status="PASS" starttime="20210926 09:54:27.600" endtime="20210926 09:54:27.601"/>
+</test>
+<test id="s1-s5-t2" name="SecondTest">
+<kw name="Log" library="BuiltIn">
+<arg>Second Test</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.604" level="INFO">Second Test</msg>
+<status status="PASS" starttime="20210926 09:54:27.603" endtime="20210926 09:54:27.604"/>
+</kw>
+<kw name="Set Tags" library="BuiltIn">
+<arg>Regression1</arg>
+<doc>Adds given ``tags`` for the current test or all tests in a suite.</doc>
+<msg timestamp="20210926 09:54:27.604" level="INFO">Set tag 'Regression1'.</msg>
+<status status="PASS" starttime="20210926 09:54:27.604" endtime="20210926 09:54:27.604"/>
+</kw>
+<kw name="Remove Tags" library="BuiltIn">
+<arg>Regression1</arg>
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<msg timestamp="20210926 09:54:27.605" level="INFO">Removed tag 'Regression1'.</msg>
+<status status="PASS" starttime="20210926 09:54:27.605" endtime="20210926 09:54:27.605"/>
+</kw>
+<status status="PASS" starttime="20210926 09:54:27.602" endtime="20210926 09:54:27.606"/>
+</test>
+<test id="s1-s5-t3" name="ThirdTest">
+<kw name="Log" library="BuiltIn">
+<arg>Third Test</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.607" level="INFO">Third Test</msg>
+<status status="PASS" starttime="20210926 09:54:27.607" endtime="20210926 09:54:27.607"/>
+</kw>
+<status status="PASS" starttime="20210926 09:54:27.606" endtime="20210926 09:54:27.608"/>
+</test>
+<test id="s1-s5-t4" name="FourthTest">
+<kw name="Log" library="BuiltIn">
+<arg>Fourth Test</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210926 09:54:27.609" level="INFO">Fourth Test</msg>
+<status status="PASS" starttime="20210926 09:54:27.609" endtime="20210926 09:54:27.609"/>
+</kw>
+<status status="PASS" starttime="20210926 09:54:27.608" endtime="20210926 09:54:27.610"/>
+</test>
+<status status="PASS" starttime="20210926 09:54:27.594" endtime="20210926 09:54:27.611"/>
+</suite>
+<status status="FAIL" starttime="20210926 09:54:26.904" endtime="20210926 09:54:27.613"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1" skip="0">All Tests</stat>
+<stat pass="20" fail="2" skip="0">All Tests</stat>
 </total>
 <tag>
+<stat pass="3" fail="0" skip="0">smoke</stat>
 </tag>
 <suite>
-<stat pass="0" fail="1" skip="0" id="s1" name="ADBM Project">ADBM Project</stat>
-<stat pass="0" fail="1" skip="0" id="s1-s1" name="Tests">ADBM Project.Tests</stat>
-<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Objet Campagne">ADBM Project.Tests.Objet Campagne</stat>
+<stat pass="20" fail="2" skip="0" id="s1" name="FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane">FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane</stat>
+<stat pass="8" fail="0" skip="0" id="s1-s1" name="FirstObject">FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane.FirstObject</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s2" name="Objet Campagne">FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane.Objet Campagne</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s3" name="Objet PM">FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane.Objet PM</stat>
+<stat pass="8" fail="0" skip="0" id="s1-s4" name="SecondObject">FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane.SecondObject</stat>
+<stat pass="4" fail="0" skip="0" id="s1-s5" name="TestByMarouane">FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane.TestByMarouane</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20210926 09:41:33.961" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:33.967" level="ERROR">Calling method 'start_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:33.969" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:33.972" level="ERROR">Calling method 'start_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:33.984" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:33.987" level="ERROR">Calling method 'start_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:33.989" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:33.992" level="ERROR">Calling method 'start_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:33.995" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:33.997" level="ERROR">Calling method 'start_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:33.998" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:33.999" level="ERROR">Calling method 'start_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:34.027" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:34.028" level="ERROR">Calling method 'start_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:34.029" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:34.030" level="ERROR">Calling method 'start_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:34.031" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:34.032" level="ERROR">Calling method 'start_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:34.034" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:34.035" level="ERROR">Calling method 'end_test' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:34.038" level="ERROR">Calling method 'end_suite' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:34.042" level="ERROR">Calling method 'end_suite' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
-<msg timestamp="20210926 09:41:34.046" level="ERROR">Calling method 'end_suite' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
 </errors>
 </robot>

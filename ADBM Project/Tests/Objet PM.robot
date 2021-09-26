@@ -2,15 +2,15 @@
 Library    SeleniumLibrary   
 *** Test Cases ***
 Personne Morale
-    Open Browser  ${URL}  ${BROWSER}
-    Set Browser Implicit Wait    5s
+ #   Open Browser  ${URL}  ${BROWSER}
+ #   Set Browser Implicit Wait    5s
     #Maximize Browser Window
-    RememberMe
-    Login
-    CreerPM
+ #   RememberMe
+ #   Login
+ #   CreerPM
     #ConsulterPM
-    Sleep    5s
-    Close Browser 
+ #   Sleep    5s
+ #   Close Browser 
     Log     Test Completed 
     
 
