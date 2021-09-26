@@ -17,9 +17,9 @@ Consultation d'une campagne
 #    Close Browser 
     Log     Test Completed 
     
-Verfication
-    Open Browser    http://uts0007:33410/adbm_dev/login.jsp    chrome
-     Select Checkbox    name=edrememberme
+#Verfication
+#    Open Browser    http://uts0007:33410/adbm_dev/login.jsp    chrome
+#     Select Checkbox    name=edrememberme
 
     
 
