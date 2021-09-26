@@ -1,310 +1,286 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1 (Python 3.8.10 on win32)" generated="20210926 09:59:16.412" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1 (Python 3.8.10 on win32)" generated="20210926 10:02:39.694" rpa="false" schemaversion="2">
 <suite id="s1" name="FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane">
 <suite id="s1-s1" name="FirstObject" source="C:\Users\mrb\git\ABDMTEST\ADBM Project\tests\FirstObject.robot">
 <test id="s1-s1-t1" name="FirstTest">
 <kw name="Log" library="BuiltIn">
 <arg>First Test</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:16.781" level="INFO">First Test</msg>
-<status status="PASS" starttime="20210926 09:59:16.781" endtime="20210926 09:59:16.782"/>
+<msg timestamp="20210926 10:02:39.816" level="INFO">First Test</msg>
+<status status="PASS" starttime="20210926 10:02:39.815" endtime="20210926 10:02:39.816"/>
 </kw>
 <tag>smoke</tag>
-<status status="PASS" starttime="20210926 09:59:16.776" endtime="20210926 09:59:16.782"/>
+<status status="PASS" starttime="20210926 10:02:39.814" endtime="20210926 10:02:39.816"/>
 </test>
 <test id="s1-s1-t2" name="SecondTest">
 <kw name="Log" library="BuiltIn">
 <arg>Second Test</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:16.801" level="INFO">Second Test</msg>
-<status status="PASS" starttime="20210926 09:59:16.800" endtime="20210926 09:59:16.801"/>
+<msg timestamp="20210926 10:02:39.820" level="INFO">Second Test</msg>
+<status status="PASS" starttime="20210926 10:02:39.819" endtime="20210926 10:02:39.820"/>
 </kw>
 <kw name="Set Tags" library="BuiltIn">
 <arg>Regression1</arg>
 <doc>Adds given ``tags`` for the current test or all tests in a suite.</doc>
-<msg timestamp="20210926 09:59:16.802" level="INFO">Set tag 'Regression1'.</msg>
-<status status="PASS" starttime="20210926 09:59:16.801" endtime="20210926 09:59:16.802"/>
+<msg timestamp="20210926 10:02:39.821" level="INFO">Set tag 'Regression1'.</msg>
+<status status="PASS" starttime="20210926 10:02:39.820" endtime="20210926 10:02:39.822"/>
 </kw>
 <kw name="Remove Tags" library="BuiltIn">
 <arg>Regression1</arg>
 <doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
-<msg timestamp="20210926 09:59:16.804" level="INFO">Removed tag 'Regression1'.</msg>
-<status status="PASS" starttime="20210926 09:59:16.802" endtime="20210926 09:59:16.804"/>
+<msg timestamp="20210926 10:02:39.823" level="INFO">Removed tag 'Regression1'.</msg>
+<status status="PASS" starttime="20210926 10:02:39.822" endtime="20210926 10:02:39.824"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:16.783" endtime="20210926 09:59:16.804"/>
+<status status="PASS" starttime="20210926 10:02:39.818" endtime="20210926 10:02:39.824"/>
 </test>
 <test id="s1-s1-t3" name="ThirdTest">
 <kw name="Log" library="BuiltIn">
 <arg>Third Test</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:16.808" level="INFO">Third Test</msg>
-<status status="PASS" starttime="20210926 09:59:16.807" endtime="20210926 09:59:16.808"/>
+<msg timestamp="20210926 10:02:39.826" level="INFO">Third Test</msg>
+<status status="PASS" starttime="20210926 10:02:39.826" endtime="20210926 10:02:39.826"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:16.806" endtime="20210926 09:59:16.808"/>
+<status status="PASS" starttime="20210926 10:02:39.825" endtime="20210926 10:02:39.826"/>
 </test>
 <test id="s1-s1-t4" name="FourthTest">
 <kw name="Log" library="BuiltIn">
 <arg>Fourth Test</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:16.813" level="INFO">Fourth Test</msg>
-<status status="PASS" starttime="20210926 09:59:16.811" endtime="20210926 09:59:16.813"/>
+<msg timestamp="20210926 10:02:39.828" level="INFO">Fourth Test</msg>
+<status status="PASS" starttime="20210926 10:02:39.828" endtime="20210926 10:02:39.828"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:16.809" endtime="20210926 09:59:16.816"/>
+<status status="PASS" starttime="20210926 10:02:39.827" endtime="20210926 10:02:39.829"/>
 </test>
 <test id="s1-s1-t5" name="Testnumberfive">
 <kw name="Log" library="BuiltIn">
 <arg>Test5</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:16.820" level="INFO">Test5</msg>
-<status status="PASS" starttime="20210926 09:59:16.820" endtime="20210926 09:59:16.821"/>
+<msg timestamp="20210926 10:02:39.830" level="INFO">Test5</msg>
+<status status="PASS" starttime="20210926 10:02:39.830" endtime="20210926 10:02:39.831"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:16.818" endtime="20210926 09:59:16.822"/>
+<status status="PASS" starttime="20210926 10:02:39.829" endtime="20210926 10:02:39.831"/>
 </test>
 <test id="s1-s1-t6" name="Testnumbersix">
 <kw name="Log" library="BuiltIn">
 <arg>Test6</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:16.825" level="INFO">Test6</msg>
-<status status="PASS" starttime="20210926 09:59:16.824" endtime="20210926 09:59:16.825"/>
+<msg timestamp="20210926 10:02:39.833" level="INFO">Test6</msg>
+<status status="PASS" starttime="20210926 10:02:39.832" endtime="20210926 10:02:39.833"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:16.823" endtime="20210926 09:59:16.825"/>
+<status status="PASS" starttime="20210926 10:02:39.832" endtime="20210926 10:02:39.833"/>
 </test>
 <test id="s1-s1-t7" name="TestnumberSeven">
 <kw name="Log" library="BuiltIn">
 <arg>Test7</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:16.832" level="INFO">Test7</msg>
-<status status="PASS" starttime="20210926 09:59:16.830" endtime="20210926 09:59:16.833"/>
+<msg timestamp="20210926 10:02:39.835" level="INFO">Test7</msg>
+<status status="PASS" starttime="20210926 10:02:39.835" endtime="20210926 10:02:39.835"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:16.826" endtime="20210926 09:59:16.834"/>
+<status status="PASS" starttime="20210926 10:02:39.834" endtime="20210926 10:02:39.835"/>
 </test>
 <test id="s1-s1-t8" name="TestNumberNine">
 <kw name="Log" library="BuiltIn">
 <arg>ifff</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:16.842" level="INFO">ifff</msg>
-<status status="PASS" starttime="20210926 09:59:16.841" endtime="20210926 09:59:16.842"/>
+<msg timestamp="20210926 10:02:39.839" level="INFO">ifff</msg>
+<status status="PASS" starttime="20210926 10:02:39.838" endtime="20210926 10:02:39.839"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>Test9</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:16.870" level="INFO">Test9</msg>
-<status status="PASS" starttime="20210926 09:59:16.842" endtime="20210926 09:59:16.873"/>
+<msg timestamp="20210926 10:02:39.840" level="INFO">Test9</msg>
+<status status="PASS" starttime="20210926 10:02:39.839" endtime="20210926 10:02:39.840"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:16.835" endtime="20210926 09:59:16.873"/>
+<status status="PASS" starttime="20210926 10:02:39.837" endtime="20210926 10:02:39.840"/>
 </test>
-<status status="PASS" starttime="20210926 09:59:16.583" endtime="20210926 09:59:16.881"/>
+<status status="PASS" starttime="20210926 10:02:39.781" endtime="20210926 10:02:39.842"/>
 </suite>
 <suite id="s1-s2" name="Objet Campagne" source="C:\Users\mrb\git\ABDMTEST\ADBM Project\tests\Objet Campagne.robot">
 <test id="s1-s2-t1" name="Consultation d'une campagne">
 <kw name="Log" library="BuiltIn">
 <arg>Test Completed</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:17.876" level="INFO">Test Completed</msg>
-<status status="PASS" starttime="20210926 09:59:17.876" endtime="20210926 09:59:17.877"/>
+<msg timestamp="20210926 10:02:40.446" level="INFO">Test Completed</msg>
+<status status="PASS" starttime="20210926 10:02:40.445" endtime="20210926 10:02:40.446"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:17.874" endtime="20210926 09:59:17.877"/>
+<status status="PASS" starttime="20210926 10:02:40.444" endtime="20210926 10:02:40.446"/>
 </test>
-<status status="PASS" starttime="20210926 09:59:16.884" endtime="20210926 09:59:17.878"/>
+<status status="PASS" starttime="20210926 10:02:39.844" endtime="20210926 10:02:40.447"/>
 </suite>
 <suite id="s1-s3" name="Objet PM" source="C:\Users\mrb\git\ABDMTEST\ADBM Project\tests\Objet PM.robot">
 <test id="s1-s3-t1" name="Personne Morale">
 <kw name="Log" library="BuiltIn">
 <arg>Test Completed</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:17.894" level="INFO">Test Completed</msg>
-<status status="PASS" starttime="20210926 09:59:17.893" endtime="20210926 09:59:17.894"/>
+<msg timestamp="20210926 10:02:40.461" level="INFO">Test Completed</msg>
+<status status="PASS" starttime="20210926 10:02:40.461" endtime="20210926 10:02:40.461"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:17.892" endtime="20210926 09:59:17.894"/>
+<status status="PASS" starttime="20210926 10:02:40.460" endtime="20210926 10:02:40.462"/>
 </test>
-<status status="PASS" starttime="20210926 09:59:17.883" endtime="20210926 09:59:17.895"/>
+<status status="PASS" starttime="20210926 10:02:40.450" endtime="20210926 10:02:40.463"/>
 </suite>
 <suite id="s1-s4" name="SecondObject" source="C:\Users\mrb\git\ABDMTEST\ADBM Project\tests\SecondObject.robot">
 <test id="s1-s4-t1" name="FirstTest">
 <kw name="Log" library="BuiltIn">
 <arg>First Test</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:17.908" level="INFO">First Test</msg>
-<status status="PASS" starttime="20210926 09:59:17.907" endtime="20210926 09:59:17.908"/>
+<msg timestamp="20210926 10:02:40.471" level="INFO">First Test</msg>
+<status status="PASS" starttime="20210926 10:02:40.471" endtime="20210926 10:02:40.471"/>
 </kw>
 <tag>smoke</tag>
-<status status="PASS" starttime="20210926 09:59:17.906" endtime="20210926 09:59:17.908"/>
+<status status="PASS" starttime="20210926 10:02:40.470" endtime="20210926 10:02:40.472"/>
 </test>
 <test id="s1-s4-t2" name="SecondTest">
 <kw name="Log" library="BuiltIn">
 <arg>Second Test</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:17.911" level="INFO">Second Test</msg>
-<status status="PASS" starttime="20210926 09:59:17.910" endtime="20210926 09:59:17.911"/>
+<msg timestamp="20210926 10:02:40.475" level="INFO">Second Test</msg>
+<status status="PASS" starttime="20210926 10:02:40.475" endtime="20210926 10:02:40.476"/>
 </kw>
 <kw name="Set Tags" library="BuiltIn">
 <arg>Regression1</arg>
 <doc>Adds given ``tags`` for the current test or all tests in a suite.</doc>
-<msg timestamp="20210926 09:59:17.912" level="INFO">Set tag 'Regression1'.</msg>
-<status status="PASS" starttime="20210926 09:59:17.911" endtime="20210926 09:59:17.912"/>
+<msg timestamp="20210926 10:02:40.477" level="INFO">Set tag 'Regression1'.</msg>
+<status status="PASS" starttime="20210926 10:02:40.476" endtime="20210926 10:02:40.477"/>
 </kw>
 <kw name="Remove Tags" library="BuiltIn">
 <arg>Regression1</arg>
 <doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
-<msg timestamp="20210926 09:59:17.913" level="INFO">Removed tag 'Regression1'.</msg>
-<status status="PASS" starttime="20210926 09:59:17.912" endtime="20210926 09:59:17.913"/>
+<msg timestamp="20210926 10:02:40.478" level="INFO">Removed tag 'Regression1'.</msg>
+<status status="PASS" starttime="20210926 10:02:40.477" endtime="20210926 10:02:40.478"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:17.909" endtime="20210926 09:59:17.913"/>
+<status status="PASS" starttime="20210926 10:02:40.474" endtime="20210926 10:02:40.478"/>
 </test>
 <test id="s1-s4-t3" name="ThirdTest">
 <kw name="Log" library="BuiltIn">
 <arg>Third Test</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:17.915" level="INFO">Third Test</msg>
-<status status="PASS" starttime="20210926 09:59:17.915" endtime="20210926 09:59:17.915"/>
+<msg timestamp="20210926 10:02:40.480" level="INFO">Third Test</msg>
+<status status="PASS" starttime="20210926 10:02:40.480" endtime="20210926 10:02:40.480"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:17.914" endtime="20210926 09:59:17.917"/>
+<status status="PASS" starttime="20210926 10:02:40.479" endtime="20210926 10:02:40.480"/>
 </test>
 <test id="s1-s4-t4" name="FourthTest">
 <kw name="Log" library="BuiltIn">
 <arg>Fourth Test</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:17.920" level="INFO">Fourth Test</msg>
-<status status="PASS" starttime="20210926 09:59:17.920" endtime="20210926 09:59:17.920"/>
+<msg timestamp="20210926 10:02:40.482" level="INFO">Fourth Test</msg>
+<status status="PASS" starttime="20210926 10:02:40.482" endtime="20210926 10:02:40.482"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:17.918" endtime="20210926 09:59:17.920"/>
+<status status="PASS" starttime="20210926 10:02:40.481" endtime="20210926 10:02:40.482"/>
 </test>
 <test id="s1-s4-t5" name="Testnumberfive">
 <kw name="Log" library="BuiltIn">
 <arg>Test5</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:17.923" level="INFO">Test5</msg>
-<status status="PASS" starttime="20210926 09:59:17.922" endtime="20210926 09:59:17.923"/>
+<msg timestamp="20210926 10:02:40.484" level="INFO">Test5</msg>
+<status status="PASS" starttime="20210926 10:02:40.484" endtime="20210926 10:02:40.484"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:17.921" endtime="20210926 09:59:17.924"/>
+<status status="PASS" starttime="20210926 10:02:40.483" endtime="20210926 10:02:40.485"/>
 </test>
 <test id="s1-s4-t6" name="Testnumbersix">
 <kw name="Log" library="BuiltIn">
 <arg>Test6</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:17.926" level="INFO">Test6</msg>
-<status status="PASS" starttime="20210926 09:59:17.926" endtime="20210926 09:59:17.927"/>
+<msg timestamp="20210926 10:02:40.487" level="INFO">Test6</msg>
+<status status="PASS" starttime="20210926 10:02:40.486" endtime="20210926 10:02:40.487"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:17.925" endtime="20210926 09:59:17.927"/>
+<status status="PASS" starttime="20210926 10:02:40.485" endtime="20210926 10:02:40.487"/>
 </test>
 <test id="s1-s4-t7" name="TestnumberSeven">
 <kw name="Log" library="BuiltIn">
 <arg>Test7</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:17.930" level="INFO">Test7</msg>
-<status status="PASS" starttime="20210926 09:59:17.929" endtime="20210926 09:59:17.930"/>
+<msg timestamp="20210926 10:02:40.490" level="INFO">Test7</msg>
+<status status="PASS" starttime="20210926 10:02:40.489" endtime="20210926 10:02:40.491"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:17.928" endtime="20210926 09:59:17.930"/>
+<status status="PASS" starttime="20210926 10:02:40.488" endtime="20210926 10:02:40.491"/>
 </test>
 <test id="s1-s4-t8" name="TestNumberNine">
 <kw name="Log" library="BuiltIn">
 <arg>ifff</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:17.934" level="INFO">ifff</msg>
-<status status="PASS" starttime="20210926 09:59:17.933" endtime="20210926 09:59:17.934"/>
+<msg timestamp="20210926 10:02:40.494" level="INFO">ifff</msg>
+<status status="PASS" starttime="20210926 10:02:40.494" endtime="20210926 10:02:40.495"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>Test9</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:17.936" level="INFO">Test9</msg>
-<status status="PASS" starttime="20210926 09:59:17.935" endtime="20210926 09:59:17.936"/>
+<msg timestamp="20210926 10:02:40.495" level="INFO">Test9</msg>
+<status status="PASS" starttime="20210926 10:02:40.495" endtime="20210926 10:02:40.495"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:17.931" endtime="20210926 09:59:17.936"/>
+<status status="PASS" starttime="20210926 10:02:40.493" endtime="20210926 10:02:40.496"/>
 </test>
-<status status="PASS" starttime="20210926 09:59:17.898" endtime="20210926 09:59:17.937"/>
+<status status="PASS" starttime="20210926 10:02:40.465" endtime="20210926 10:02:40.496"/>
 </suite>
 <suite id="s1-s5" name="TestByMarouane" source="C:\Users\mrb\git\ABDMTEST\ADBM Project\tests\TestByMarouane.robot">
 <test id="s1-s5-t1" name="FirstTest">
 <kw name="Log" library="BuiltIn">
 <arg>First Test</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:17.955" level="INFO">First Test</msg>
-<status status="PASS" starttime="20210926 09:59:17.955" endtime="20210926 09:59:17.956"/>
+<msg timestamp="20210926 10:02:40.511" level="INFO">First Test</msg>
+<status status="PASS" starttime="20210926 10:02:40.510" endtime="20210926 10:02:40.511"/>
 </kw>
 <tag>smoke</tag>
-<status status="PASS" starttime="20210926 09:59:17.953" endtime="20210926 09:59:17.956"/>
+<status status="PASS" starttime="20210926 10:02:40.508" endtime="20210926 10:02:40.511"/>
 </test>
 <test id="s1-s5-t2" name="SecondTest">
 <kw name="Log" library="BuiltIn">
 <arg>Second Test</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:17.960" level="INFO">Second Test</msg>
-<status status="PASS" starttime="20210926 09:59:17.959" endtime="20210926 09:59:17.960"/>
+<msg timestamp="20210926 10:02:40.514" level="INFO">Second Test</msg>
+<status status="PASS" starttime="20210926 10:02:40.513" endtime="20210926 10:02:40.514"/>
 </kw>
 <kw name="Set Tags" library="BuiltIn">
 <arg>Regression1</arg>
 <doc>Adds given ``tags`` for the current test or all tests in a suite.</doc>
-<msg timestamp="20210926 09:59:17.961" level="INFO">Set tag 'Regression1'.</msg>
-<status status="PASS" starttime="20210926 09:59:17.961" endtime="20210926 09:59:17.961"/>
+<msg timestamp="20210926 10:02:40.515" level="INFO">Set tag 'Regression1'.</msg>
+<status status="PASS" starttime="20210926 10:02:40.514" endtime="20210926 10:02:40.516"/>
 </kw>
 <kw name="Remove Tags" library="BuiltIn">
 <arg>Regression1</arg>
 <doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
-<msg timestamp="20210926 09:59:17.963" level="INFO">Removed tag 'Regression1'.</msg>
-<status status="PASS" starttime="20210926 09:59:17.962" endtime="20210926 09:59:17.963"/>
+<msg timestamp="20210926 10:02:40.516" level="INFO">Removed tag 'Regression1'.</msg>
+<status status="PASS" starttime="20210926 10:02:40.516" endtime="20210926 10:02:40.517"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:17.958" endtime="20210926 09:59:17.964"/>
+<status status="PASS" starttime="20210926 10:02:40.512" endtime="20210926 10:02:40.517"/>
 </test>
 <test id="s1-s5-t3" name="ThirdTest">
 <kw name="Log" library="BuiltIn">
 <arg>Third Test</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:17.968" level="INFO">Third Test</msg>
-<status status="PASS" starttime="20210926 09:59:17.967" endtime="20210926 09:59:17.968"/>
+<msg timestamp="20210926 10:02:40.519" level="INFO">Third Test</msg>
+<status status="PASS" starttime="20210926 10:02:40.519" endtime="20210926 10:02:40.519"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:17.965" endtime="20210926 09:59:17.969"/>
+<status status="PASS" starttime="20210926 10:02:40.518" endtime="20210926 10:02:40.520"/>
 </test>
 <test id="s1-s5-t4" name="FourthTest">
 <kw name="Log" library="BuiltIn">
 <arg>Fourth Test</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20210926 09:59:17.972" level="INFO">Fourth Test</msg>
-<status status="PASS" starttime="20210926 09:59:17.972" endtime="20210926 09:59:17.972"/>
+<msg timestamp="20210926 10:02:40.522" level="INFO">Fourth Test</msg>
+<status status="PASS" starttime="20210926 10:02:40.522" endtime="20210926 10:02:40.523"/>
 </kw>
-<status status="PASS" starttime="20210926 09:59:17.970" endtime="20210926 09:59:17.973"/>
+<status status="PASS" starttime="20210926 10:02:40.520" endtime="20210926 10:02:40.523"/>
 </test>
-<test id="s1-s5-t5" name="Test6">
-<kw name="LoginKWD">
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>id=txtUsername</arg>
-<arg>@{CREDENTIALS}[0]</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20210926 09:59:17.979" level="FAIL">Value of variable '@{CREDENTIALS}[0]' is not list or list-like.</msg>
-<status status="FAIL" starttime="20210926 09:59:17.976" endtime="20210926 09:59:17.979"/>
-</kw>
-<kw name="Input Password" library="SeleniumLibrary">
-<arg>id=txtPassword</arg>
-<arg>&amp;{LOGINDATA}[password]</arg>
-<doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20210926 09:59:17.980" endtime="20210926 09:59:17.980"/>
-</kw>
-<kw name="Click Button" library="SeleniumLibrary">
-<arg>id=btnLogin</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20210926 09:59:17.980" endtime="20210926 09:59:17.981"/>
-</kw>
-<status status="FAIL" starttime="20210926 09:59:17.975" endtime="20210926 09:59:17.982"/>
-</kw>
-<status status="FAIL" starttime="20210926 09:59:17.974" endtime="20210926 09:59:17.984">Value of variable '@{CREDENTIALS}[0]' is not list or list-like.</status>
-</test>
-<status status="FAIL" starttime="20210926 09:59:17.940" endtime="20210926 09:59:17.987"/>
+<status status="PASS" starttime="20210926 10:02:40.499" endtime="20210926 10:02:40.524"/>
 </suite>
-<status status="FAIL" starttime="20210926 09:59:16.419" endtime="20210926 09:59:17.992"/>
+<status status="PASS" starttime="20210926 10:02:39.699" endtime="20210926 10:02:40.527"/>
 </suite>
 <statistics>
 <total>
-<stat pass="22" fail="1" skip="0">All Tests</stat>
+<stat pass="22" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 <stat pass="3" fail="0" skip="0">smoke</stat>
 </tag>
 <suite>
-<stat pass="22" fail="1" skip="0" id="s1" name="FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane">FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane</stat>
+<stat pass="22" fail="0" skip="0" id="s1" name="FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane">FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane</stat>
 <stat pass="8" fail="0" skip="0" id="s1-s1" name="FirstObject">FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane.FirstObject</stat>
 <stat pass="1" fail="0" skip="0" id="s1-s2" name="Objet Campagne">FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane.Objet Campagne</stat>
 <stat pass="1" fail="0" skip="0" id="s1-s3" name="Objet PM">FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane.Objet PM</stat>
 <stat pass="8" fail="0" skip="0" id="s1-s4" name="SecondObject">FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane.SecondObject</stat>
-<stat pass="4" fail="1" skip="0" id="s1-s5" name="TestByMarouane">FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane.TestByMarouane</stat>
+<stat pass="4" fail="0" skip="0" id="s1-s5" name="TestByMarouane">FirstObject &amp; Objet Campagne &amp; Objet PM &amp; SecondObject &amp; TestByMarouane.TestByMarouane</stat>
 </suite>
 </statistics>
 <errors>
