@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.8.10 on win32)" generated="20210926 09:41:24.231" rpa="false" schemaversion="2">
+<suite id="s1" name="ADBM Project" source="C:\Users\mrb\Desktop\ADBM Project">
+<suite id="s1-s1" name="Tests" source="C:\Users\mrb\Desktop\ADBM Project\Tests">
+<suite id="s1-s1-s1" name="Objet Campagne" source="C:\Users\mrb\Desktop\ADBM Project\Tests\Objet Campagne.robot">
+<test id="s1-s1-s1-t1" name="Consultation d'une campagne">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210926 09:41:33.438" level="INFO">Opening browser 'Chrome' to base url 'http://uts0007:33410/adbm_dev/login.jsp'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20210926 09:41:33.545" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20210926 09:41:33.542" endtime="20210926 09:41:33.546"/>
+</kw>
+<msg timestamp="20210926 09:41:33.896" level="FAIL">WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+</msg>
+<status status="FAIL" starttime="20210926 09:41:33.404" endtime="20210926 09:41:33.897"/>
+</kw>
+<kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
+<arg>5s</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="NOT RUN" starttime="20210926 09:41:33.899" endtime="20210926 09:41:33.900"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20210926 09:41:33.901" endtime="20210926 09:41:33.901"/>
+</kw>
+<kw name="RememberMe">
+<status status="NOT RUN" starttime="20210926 09:41:33.902" endtime="20210926 09:41:33.903"/>
+</kw>
+<kw name="Login">
+<status status="NOT RUN" starttime="20210926 09:41:33.904" endtime="20210926 09:41:33.904"/>
+</kw>
+<kw name="AfficherPageRecherche">
+<status status="NOT RUN" starttime="20210926 09:41:33.965" endtime="20210926 09:41:33.967"/>
+</kw>
+<kw name="VerificationDesCriteres">
+<status status="NOT RUN" starttime="20210926 09:41:33.970" endtime="20210926 09:41:33.982"/>
+</kw>
+<kw name="TesterLaRecherche">
+<status status="NOT RUN" starttime="20210926 09:41:33.985" endtime="20210926 09:41:33.987"/>
+</kw>
+<kw name="CreeUneCampagne">
+<status status="NOT RUN" starttime="20210926 09:41:33.990" endtime="20210926 09:41:33.993"/>
+</kw>
+<kw name="ModifierUneCampagneDejaCree">
+<status status="NOT RUN" starttime="20210926 09:41:33.995" endtime="20210926 09:41:33.997"/>
+</kw>
+<kw name="SupprimerUneCampagne">
+<status status="NOT RUN" starttime="20210926 09:41:33.998" endtime="20210926 09:41:34.000"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20210926 09:41:34.028" endtime="20210926 09:41:34.029"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20210926 09:41:34.030" endtime="20210926 09:41:34.030"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Test Completed</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20210926 09:41:34.031" endtime="20210926 09:41:34.033"/>
+</kw>
+<status status="FAIL" starttime="20210926 09:41:33.403" endtime="20210926 09:41:34.034">WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+</status>
+</test>
+<status status="FAIL" starttime="20210926 09:41:24.570" endtime="20210926 09:41:34.036"/>
+</suite>
+<status status="FAIL" starttime="20210926 09:41:24.563" endtime="20210926 09:41:34.040"/>
+</suite>
+<status status="FAIL" starttime="20210926 09:41:24.435" endtime="20210926 09:41:34.044"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="ADBM Project">ADBM Project</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Tests">ADBM Project.Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Objet Campagne">ADBM Project.Tests.Objet Campagne</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210926 09:41:33.961" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:33.967" level="ERROR">Calling method 'start_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:33.969" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:33.972" level="ERROR">Calling method 'start_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:33.984" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:33.987" level="ERROR">Calling method 'start_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:33.989" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:33.992" level="ERROR">Calling method 'start_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:33.995" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:33.997" level="ERROR">Calling method 'start_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:33.998" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:33.999" level="ERROR">Calling method 'start_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:34.027" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:34.028" level="ERROR">Calling method 'start_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:34.029" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:34.030" level="ERROR">Calling method 'start_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:34.031" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:34.032" level="ERROR">Calling method 'start_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:34.034" level="ERROR">Calling method 'end_keyword' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:34.035" level="ERROR">Calling method 'end_test' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:34.038" level="ERROR">Calling method 'end_suite' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:34.042" level="ERROR">Calling method 'end_suite' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+<msg timestamp="20210926 09:41:34.046" level="ERROR">Calling method 'end_suite' of listener 'C:\Users\mrb\AppData\Local\Temp\RobotTempDir2358608354498547872\TestRunnerAgent.py' failed: ConnectionAbortedError: [WinError 10053] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte</msg>
+</errors>
+</robot>
